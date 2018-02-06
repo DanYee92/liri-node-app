@@ -1,0 +1,28 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "twitter app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanYee92/liri-node-app.git"
+  },
+  "keywords": [
+    "twitter",
+    "spotify",
+    "request"
+  ],
+  "author": "Dan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanYee92/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/DanYee92/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "node-spotify-api": "^1.0.7"
+  }
+}
