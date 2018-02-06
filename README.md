@@ -1,8 +1,20 @@
 # liri-node-app
 
-Spotify, If no song is provided then run "The Sign" by Ace of Base
 
-If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.
+create a file named `.env`, add the following to it, replacing the values with your API keys (no quotes) once you have them:
+
+```js
+# Spotify API keys
+
+SPOTIFY_ID=your-spotify-id
+SPOTIFY_SECRET=your-spotify-secret
+
+# Twitter API keys
+
+TWITTER_CONSUMER_KEY=your-twitter-consumer-key
+TWITTER_CONSUMER_SECRET=your-twitter-consumer-secret
+TWITTER_ACCESS_TOKEN_KEY=your-access-token-key
+TWITTER_ACCESS_TOKEN_SECRET=your-twitter-access-token-secret
 
 node liri.js my-tweets
 
